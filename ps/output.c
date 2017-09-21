@@ -1981,6 +1981,7 @@ void show_one_proc(const proc_t *restrict const p, const format_node *restrict f
 
   /* print row start sequence */
   for(;;){
+    printf("aa\n");
     legit = 0;
     /* set width suggestion which might be ignored */
 //    if(likely(fmt->next)) max_rightward = fmt->width;
