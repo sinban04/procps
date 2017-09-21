@@ -1101,6 +1101,7 @@ static int arg_type(const char *str){
 
 /* First assume sysv, because that is the POSIX and Unix98 standard. */
 static const char *parse_all_options(void){
+  printf("parse all options\n");
   const char *err = NULL;
   int at;
   while(++thisarg < ps_argc){

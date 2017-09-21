@@ -745,6 +745,7 @@ static const char *generate_sysv_list(void){
  * The "broken" flag enables a really bad Unix98 misfeature.
  */
 const char *process_sf_options(void){
+  printf("process sf options()\n");
   sf_node *sf_walk;
 
   if(sf_list){

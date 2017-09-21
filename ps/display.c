@@ -643,7 +643,9 @@ int main(int argc, char *argv[]){
   } while (0);
 #endif
 
+  // [sinban] initialize the variables
   reset_global();  /* must be before parser */
+  // [ sinban] parse the command line and set the options
   arg_parse(argc,argv);
 
   /* check for invalid combination of arguments */

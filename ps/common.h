@@ -20,7 +20,7 @@
 #if 0
 #define trace(...) printf(## __VA_ARGS__)
 #else
-#define trace(...)
+#define trace(...) printf(__VA_ARGS__)
 #endif
 
 

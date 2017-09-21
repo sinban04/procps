@@ -1981,16 +1981,19 @@ void show_one_proc(const proc_t *restrict const p, const format_node *restrict f
 
   /* print row start sequence */
   for(;;){
-    printf("aa\n");
     legit = 0;
     /* set width suggestion which might be ignored */
 //    if(likely(fmt->next)) max_rightward = fmt->width;
 //    else max_rightward = active_cols-((correct>actual) ? correct : actual);
 
+    // [sinban] if it has next row item 
     if(likely(fmt->next)){
       max_rightward = fmt->width;
       tmpspace = 0;
-    }else{
+    }else{ // [sinban] if there's nothing more in that row
+      // [sinban] max_rightward
+      // max_leftward 
+
       tmpspace = correct-actual;
       if (tmpspace<1){
         tmpspace = dospace;
@@ -2000,7 +2003,7 @@ void show_one_proc(const proc_t *restrict const p, const format_node *restrict f
       }
     }
     max_leftward  = fmt->width + actual - correct; /* TODO check this */
-
+ 
 //    fprintf(stderr, "cols: %d, max_rightward: %d, max_leftward: %d, actual: %d, correct: %d\n",
 //		    active_cols, max_rightward, max_leftward, actual, correct);
 
