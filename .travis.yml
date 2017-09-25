@@ -1,0 +1,15 @@
+
+language: c
+
+os: linux
+dist: trusty
+sudo: required
+
+before_install:
+  - "tools/install-deps.sh"
+
+install:
+
+script: "tools/install.sh"
+
+
