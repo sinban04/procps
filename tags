@@ -9,29 +9,29 @@
 ABBREV_DEV	proc/devname.h	9;"	d
 ABBREV_PTS	proc/devname.h	11;"	d
 ABBREV_TTY	proc/devname.h	10;"	d
-ABDAY_1	include/nls.h	/^	ABDAY_1,$/;"	e	enum:__anon3
-ABDAY_2	include/nls.h	/^	ABDAY_2,$/;"	e	enum:__anon3
-ABDAY_3	include/nls.h	/^	ABDAY_3,$/;"	e	enum:__anon3
-ABDAY_4	include/nls.h	/^	ABDAY_4,$/;"	e	enum:__anon3
-ABDAY_5	include/nls.h	/^	ABDAY_5,$/;"	e	enum:__anon3
-ABDAY_6	include/nls.h	/^	ABDAY_6,$/;"	e	enum:__anon3
-ABDAY_7	include/nls.h	/^	ABDAY_7,$/;"	e	enum:__anon3
-ABMON_1	include/nls.h	/^	ABMON_1,$/;"	e	enum:__anon3
-ABMON_10	include/nls.h	/^	ABMON_10,$/;"	e	enum:__anon3
-ABMON_11	include/nls.h	/^	ABMON_11,$/;"	e	enum:__anon3
-ABMON_12	include/nls.h	/^	ABMON_12,$/;"	e	enum:__anon3
-ABMON_2	include/nls.h	/^	ABMON_2,$/;"	e	enum:__anon3
-ABMON_3	include/nls.h	/^	ABMON_3,$/;"	e	enum:__anon3
-ABMON_4	include/nls.h	/^	ABMON_4,$/;"	e	enum:__anon3
-ABMON_5	include/nls.h	/^	ABMON_5,$/;"	e	enum:__anon3
-ABMON_6	include/nls.h	/^	ABMON_6,$/;"	e	enum:__anon3
-ABMON_7	include/nls.h	/^	ABMON_7,$/;"	e	enum:__anon3
-ABMON_8	include/nls.h	/^	ABMON_8,$/;"	e	enum:__anon3
-ABMON_9	include/nls.h	/^	ABMON_9,$/;"	e	enum:__anon3
-ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/ubuntu\/procps\/missing aclocal-1.15$/;"	m
-ACLOCAL	include/Makefile	/^ACLOCAL = ${SHELL} \/home\/ubuntu\/procps\/missing aclocal-1.15$/;"	m
-ACLOCAL	man-po/Makefile	/^ACLOCAL = ${SHELL} \/home\/ubuntu\/procps\/missing aclocal-1.15$/;"	m
-ACLOCAL	testsuite/Makefile	/^ACLOCAL = ${SHELL} \/home\/ubuntu\/procps\/missing aclocal-1.15$/;"	m
+ABDAY_1	include/nls.h	/^	ABDAY_1,$/;"	e	enum:__anon4
+ABDAY_2	include/nls.h	/^	ABDAY_2,$/;"	e	enum:__anon4
+ABDAY_3	include/nls.h	/^	ABDAY_3,$/;"	e	enum:__anon4
+ABDAY_4	include/nls.h	/^	ABDAY_4,$/;"	e	enum:__anon4
+ABDAY_5	include/nls.h	/^	ABDAY_5,$/;"	e	enum:__anon4
+ABDAY_6	include/nls.h	/^	ABDAY_6,$/;"	e	enum:__anon4
+ABDAY_7	include/nls.h	/^	ABDAY_7,$/;"	e	enum:__anon4
+ABMON_1	include/nls.h	/^	ABMON_1,$/;"	e	enum:__anon4
+ABMON_10	include/nls.h	/^	ABMON_10,$/;"	e	enum:__anon4
+ABMON_11	include/nls.h	/^	ABMON_11,$/;"	e	enum:__anon4
+ABMON_12	include/nls.h	/^	ABMON_12,$/;"	e	enum:__anon4
+ABMON_2	include/nls.h	/^	ABMON_2,$/;"	e	enum:__anon4
+ABMON_3	include/nls.h	/^	ABMON_3,$/;"	e	enum:__anon4
+ABMON_4	include/nls.h	/^	ABMON_4,$/;"	e	enum:__anon4
+ABMON_5	include/nls.h	/^	ABMON_5,$/;"	e	enum:__anon4
+ABMON_6	include/nls.h	/^	ABMON_6,$/;"	e	enum:__anon4
+ABMON_7	include/nls.h	/^	ABMON_7,$/;"	e	enum:__anon4
+ABMON_8	include/nls.h	/^	ABMON_8,$/;"	e	enum:__anon4
+ABMON_9	include/nls.h	/^	ABMON_9,$/;"	e	enum:__anon4
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/test\/procps\/missing aclocal-1.15$/;"	m
+ACLOCAL	include/Makefile	/^ACLOCAL = ${SHELL} \/home\/test\/procps\/missing aclocal-1.15$/;"	m
+ACLOCAL	man-po/Makefile	/^ACLOCAL = ${SHELL} \/home\/test\/procps\/missing aclocal-1.15$/;"	m
+ACLOCAL	testsuite/Makefile	/^ACLOCAL = ${SHELL} \/home\/test\/procps\/missing aclocal-1.15$/;"	m
 ACLOCAL_AMFLAGS	Makefile	/^ACLOCAL_AMFLAGS = -I m4$/;"	m
 ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
 ACLOCAL_M4	include/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
@@ -40,7 +40,7 @@ ACLOCAL_M4	testsuite/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
 ADOPTED	ps/display.c	470;"	d	file:
 AIX	ps/common.h	50;"	d
 ALTCHKw	top/top.h	445;"	d
-ALT_DIGITS	include/nls.h	/^	ALT_DIGITS,$/;"	e	enum:__anon3
+ALT_DIGITS	include/nls.h	/^	ALT_DIGITS,$/;"	e	enum:__anon4
 ALT_GRAPHS2	top/top.h	343;"	d
 ALT_GRAPHS2	top/top.h	351;"	d
 ALT_WINFLGS	top/top.h	342;"	d
@@ -62,7 +62,7 @@ AM_DEFAULT_VERBOSITY	include/Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
 AM_DEFAULT_VERBOSITY	man-po/Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
 AM_DEFAULT_VERBOSITY	testsuite/Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
 AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = $(am__recursive_targets:-recursive=) TAGS CTAGS \\$/;"	m
-AM_STR	include/nls.h	/^	AM_STR,$/;"	e	enum:__anon3
+AM_STR	include/nls.h	/^	AM_STR,$/;"	e	enum:__anon4
 AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
 AM_V_CC	testsuite/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
 AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
@@ -81,13 +81,13 @@ AM_V_at	man-po/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
 AM_V_at	testsuite/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
 AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
 AM_V_lt	testsuite/Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
-AN	ps/output.c	1413;"	d	file:
-AN	ps/output.c	1707;"	d	file:
+AN	ps/output.c	1455;"	d	file:
+AN	ps/output.c	1754;"	d	file:
 AR	Makefile	/^AR = ar$/;"	m
 AR	include/Makefile	/^AR = ar$/;"	m
 AR	man-po/Makefile	/^AR = ar$/;"	m
 AR	testsuite/Makefile	/^AR = ar$/;"	m
-ARG	ps/output.c	1417;"	d	file:
+ARG	ps/output.c	1459;"	d	file:
 ARG_BSD	ps/parser.c	44;"	d	file:
 ARG_END	ps/parser.c	40;"	d	file:
 ARG_FAIL	ps/parser.c	45;"	d	file:
@@ -98,18 +98,18 @@ ARG_SESS	ps/parser.c	46;"	d	file:
 ARG_SYSV	ps/parser.c	42;"	d	file:
 AT_CLKTCK	proc/sysinfo.c	256;"	d	file:
 AT_SECURE	proc/sysinfo.c	252;"	d	file:
-AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/ubuntu\/procps\/missing autoconf$/;"	m
-AUTOCONF	include/Makefile	/^AUTOCONF = ${SHELL} \/home\/ubuntu\/procps\/missing autoconf$/;"	m
-AUTOCONF	man-po/Makefile	/^AUTOCONF = ${SHELL} \/home\/ubuntu\/procps\/missing autoconf$/;"	m
-AUTOCONF	testsuite/Makefile	/^AUTOCONF = ${SHELL} \/home\/ubuntu\/procps\/missing autoconf$/;"	m
-AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/ubuntu\/procps\/missing autoheader$/;"	m
-AUTOHEADER	include/Makefile	/^AUTOHEADER = ${SHELL} \/home\/ubuntu\/procps\/missing autoheader$/;"	m
-AUTOHEADER	man-po/Makefile	/^AUTOHEADER = ${SHELL} \/home\/ubuntu\/procps\/missing autoheader$/;"	m
-AUTOHEADER	testsuite/Makefile	/^AUTOHEADER = ${SHELL} \/home\/ubuntu\/procps\/missing autoheader$/;"	m
-AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/ubuntu\/procps\/missing automake-1.15$/;"	m
-AUTOMAKE	include/Makefile	/^AUTOMAKE = ${SHELL} \/home\/ubuntu\/procps\/missing automake-1.15$/;"	m
-AUTOMAKE	man-po/Makefile	/^AUTOMAKE = ${SHELL} \/home\/ubuntu\/procps\/missing automake-1.15$/;"	m
-AUTOMAKE	testsuite/Makefile	/^AUTOMAKE = ${SHELL} \/home\/ubuntu\/procps\/missing automake-1.15$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/test\/procps\/missing autoconf$/;"	m
+AUTOCONF	include/Makefile	/^AUTOCONF = ${SHELL} \/home\/test\/procps\/missing autoconf$/;"	m
+AUTOCONF	man-po/Makefile	/^AUTOCONF = ${SHELL} \/home\/test\/procps\/missing autoconf$/;"	m
+AUTOCONF	testsuite/Makefile	/^AUTOCONF = ${SHELL} \/home\/test\/procps\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/test\/procps\/missing autoheader$/;"	m
+AUTOHEADER	include/Makefile	/^AUTOHEADER = ${SHELL} \/home\/test\/procps\/missing autoheader$/;"	m
+AUTOHEADER	man-po/Makefile	/^AUTOHEADER = ${SHELL} \/home\/test\/procps\/missing autoheader$/;"	m
+AUTOHEADER	testsuite/Makefile	/^AUTOHEADER = ${SHELL} \/home\/test\/procps\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/test\/procps\/missing automake-1.15$/;"	m
+AUTOMAKE	include/Makefile	/^AUTOMAKE = ${SHELL} \/home\/test\/procps\/missing automake-1.15$/;"	m
+AUTOMAKE	man-po/Makefile	/^AUTOMAKE = ${SHELL} \/home\/test\/procps\/missing automake-1.15$/;"	m
+AUTOMAKE	testsuite/Makefile	/^AUTOMAKE = ${SHELL} \/home\/test\/procps\/missing automake-1.15$/;"	m
 AUTOMAKE_OPTIONS	testsuite/Makefile	/^AUTOMAKE_OPTIONS = dejagnu$/;"	m
 AUTOX_COL	top/top.c	205;"	d	file:
 AUTOX_MODE	top/top.c	206;"	d	file:
@@ -174,7 +174,7 @@ CF_SIGNAL	ps/common.h	87;"	d
 CF_UNLIMITED	ps/common.h	85;"	d
 CF_USER	ps/common.h	82;"	d
 CF_WCHAN	ps/common.h	86;"	d
-CGRP	ps/output.c	1426;"	d	file:
+CGRP	ps/output.c	1468;"	d	file:
 CHKw	top/top.h	441;"	d
 CHOOSE_group_txt	top/top_nls.h	/^   CHOOSE_group_txt, COLORS_nomap_txt, DELAY_badarg_txt, DELAY_change_fmt,$/;"	e	enum:norm_nls
 CLEANFILES	man-po/Makefile	/^CLEANFILES = $(DIST_MAN_POTS) $(translated_MANS)$/;"	m
@@ -188,14 +188,14 @@ CMP_NS	ps/output.c	149;"	d	file:
 CMP_SMALL	ps/output.c	126;"	d	file:
 CMP_SMALL2	ps/output.c	130;"	d	file:
 CMP_STR	ps/output.c	110;"	d	file:
-CODESET	include/nls.h	/^	CODESET = 1,$/;"	e	enum:__anon3
+CODESET	include/nls.h	/^	CODESET = 1,$/;"	e	enum:__anon4
 COLORS_nomap_txt	top/top_nls.h	/^   CHOOSE_group_txt, COLORS_nomap_txt, DELAY_badarg_txt, DELAY_change_fmt,$/;"	e	enum:norm_nls
 COLOR_custom_fmt	top/top_nls.h	/^   COLOR_custom_fmt, FIELD_header_fmt, KEYS_helpbas_fmt, KEYS_helpext_fmt,$/;"	e	enum:uniq_nls
 COLPADSIZ	top/top.h	152;"	d
 COLPADSTR	top/top.h	151;"	d
 COLPLUSCH	top/top.h	154;"	d
 COLWID	ps/output.c	81;"	d	file:
-COM	ps/output.c	1418;"	d	file:
+COM	ps/output.c	1460;"	d	file:
 COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
 COMPILE	testsuite/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
 CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES = proc\/libprocps.pc$/;"	m
@@ -221,7 +221,7 @@ CPPFLAGS	man-po/Makefile	/^CPPFLAGS = $/;"	m
 CPPFLAGS	testsuite/Makefile	/^CPPFLAGS = $/;"	m
 CPU_t	top/top.h	/^typedef struct CPU_t {$/;"	s
 CPU_t	top/top.h	/^} CPU_t;$/;"	t	typeref:struct:CPU_t
-CRNCYSTR	include/nls.h	/^	CRNCYSTR,$/;"	e	enum:__anon3
+CRNCYSTR	include/nls.h	/^	CRNCYSTR,$/;"	e	enum:__anon4
 CSCOPE	Makefile	/^CSCOPE = cscope$/;"	m
 CTAGS	Makefile	/^CTAGS = ctags$/;"	m
 CTAGS	include/Makefile	/^CTAGS = ctags$/;"	m
@@ -261,13 +261,13 @@ CreateProcess	ltmain.sh	/^   CreateProcess().  We must quote the arguments since
 Cursor_state	top/top.c	/^static const char *Cursor_state = "";$/;"	v	file:
 Curwin	top/top.c	/^static WIN_t *Curwin;$/;"	v	file:
 DATA	Makefile	/^DATA = $(dist_procpsng_DATA) $(pkgconfig_DATA) $(sysconf_DATA)$/;"	m
-DAY_1	include/nls.h	/^	DAY_1,$/;"	e	enum:__anon3
-DAY_2	include/nls.h	/^	DAY_2,$/;"	e	enum:__anon3
-DAY_3	include/nls.h	/^	DAY_3,$/;"	e	enum:__anon3
-DAY_4	include/nls.h	/^	DAY_4,$/;"	e	enum:__anon3
-DAY_5	include/nls.h	/^	DAY_5,$/;"	e	enum:__anon3
-DAY_6	include/nls.h	/^	DAY_6,$/;"	e	enum:__anon3
-DAY_7	include/nls.h	/^	DAY_7,$/;"	e	enum:__anon3
+DAY_1	include/nls.h	/^	DAY_1,$/;"	e	enum:__anon4
+DAY_2	include/nls.h	/^	DAY_2,$/;"	e	enum:__anon4
+DAY_3	include/nls.h	/^	DAY_3,$/;"	e	enum:__anon4
+DAY_4	include/nls.h	/^	DAY_4,$/;"	e	enum:__anon4
+DAY_5	include/nls.h	/^	DAY_5,$/;"	e	enum:__anon4
+DAY_6	include/nls.h	/^	DAY_6,$/;"	e	enum:__anon4
+DAY_7	include/nls.h	/^	DAY_7,$/;"	e	enum:__anon4
 DD	top/top.c	1632;"	d	file:
 DD	top/top.c	1675;"	d	file:
 DEBUG	ps/display.c	73;"	d	file:
@@ -353,8 +353,8 @@ DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
 DUMPBIN	include/Makefile	/^DUMPBIN = $/;"	m
 DUMPBIN	man-po/Makefile	/^DUMPBIN = $/;"	m
 DUMPBIN	testsuite/Makefile	/^DUMPBIN = $/;"	m
-D_FMT	include/nls.h	/^	D_FMT,$/;"	e	enum:__anon3
-D_T_FMT	include/nls.h	/^	D_T_FMT,$/;"	e	enum:__anon3
+D_FMT	include/nls.h	/^	D_FMT,$/;"	e	enum:__anon4
+D_T_FMT	include/nls.h	/^	D_T_FMT,$/;"	e	enum:__anon4
 Desc_nlstab	top/top_nls.c	/^const char *Desc_nlstab[EU_MAXPFLGS];$/;"	v
 DisplayAll	sysctl.c	/^static int DisplayAll(const char *restrict const path)$/;"	f	file:
 ECHO_C	Makefile	/^ECHO_C = $/;"	m
@@ -379,17 +379,17 @@ ENTER	proc/readproc.c	47;"	d	file:
 ENTER	proc/readproc.c	50;"	d	file:
 ENUpos	top/top.h	456;"	d
 ENUviz	top/top.h	455;"	d
-ENV	ps/output.c	1419;"	d	file:
+ENV	ps/output.c	1461;"	d	file:
 EQUWINS_xxx	top/top.h	329;"	d
-ERA_D_FMT	include/nls.h	/^	ERA_D_FMT,$/;"	e	enum:__anon3
-ERA_D_T_FMT	include/nls.h	/^	ERA_D_T_FMT,$/;"	e	enum:__anon3
-ERA_T_FMT	include/nls.h	/^	ERA_T_FMT,$/;"	e	enum:__anon3
+ERA_D_FMT	include/nls.h	/^	ERA_D_FMT,$/;"	e	enum:__anon4
+ERA_D_T_FMT	include/nls.h	/^	ERA_D_T_FMT,$/;"	e	enum:__anon4
+ERA_T_FMT	include/nls.h	/^	ERA_T_FMT,$/;"	e	enum:__anon4
 ESC_ARGS	proc/escape.h	13;"	d
 ESC_BRACKETS	proc/escape.h	14;"	d
 ESC_DEFUNCT	proc/escape.h	15;"	d
 ESC_STRETCH	proc/escape.h	11;"	d
-ET	ps/output.c	1412;"	d	file:
-ET	ps/output.c	1708;"	d	file:
+ET	ps/output.c	1454;"	d	file:
+ET	ps/output.c	1755;"	d	file:
 ETAGS	Makefile	/^ETAGS = etags$/;"	m
 ETAGS	include/Makefile	/^ETAGS = etags$/;"	m
 ETAGS	testsuite/Makefile	/^ETAGS = etags$/;"	m
@@ -572,7 +572,7 @@ GREP	include/Makefile	/^GREP = \/bin\/grep$/;"	m
 GREP	man-po/Makefile	/^GREP = \/bin\/grep$/;"	m
 GREP	testsuite/Makefile	/^GREP = \/bin\/grep$/;"	m
 GROUPSMAX	top/top.h	299;"	d
-GRP	ps/output.c	1421;"	d	file:
+GRP	ps/output.c	1463;"	d	file:
 GRPNAMSIZ	top/top.h	301;"	d
 GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
 Graph_adj	top/top.c	/^static float Graph_adj;      \/\/ bars\/blocks scaling factor$/;"	v	file:
@@ -663,14 +663,14 @@ HEADERS	include/Makefile	/^HEADERS = $(dist_noinst_HEADERS)$/;"	m
 HEAD_MULTI	ps/common.h	172;"	d
 HEAD_NONE	ps/common.h	171;"	d
 HEAD_SINGLE	ps/common.h	170;"	d
-HELP_ALL	ps/help.c	/^  HELP_THD, HELP_MSC, HELP_ALL,$/;"	e	enum:__anon1	file:
-HELP_LST	ps/help.c	/^  HELP_SMP, HELP_LST, HELP_OUT,$/;"	e	enum:__anon1	file:
-HELP_MSC	ps/help.c	/^  HELP_THD, HELP_MSC, HELP_ALL,$/;"	e	enum:__anon1	file:
-HELP_OUT	ps/help.c	/^  HELP_SMP, HELP_LST, HELP_OUT,$/;"	e	enum:__anon1	file:
-HELP_SMP	ps/help.c	/^  HELP_SMP, HELP_LST, HELP_OUT,$/;"	e	enum:__anon1	file:
-HELP_THD	ps/help.c	/^  HELP_THD, HELP_MSC, HELP_ALL,$/;"	e	enum:__anon1	file:
+HELP_ALL	ps/help.c	/^  HELP_THD, HELP_MSC, HELP_ALL,$/;"	e	enum:__anon2	file:
+HELP_LST	ps/help.c	/^  HELP_SMP, HELP_LST, HELP_OUT,$/;"	e	enum:__anon2	file:
+HELP_MSC	ps/help.c	/^  HELP_THD, HELP_MSC, HELP_ALL,$/;"	e	enum:__anon2	file:
+HELP_OUT	ps/help.c	/^  HELP_SMP, HELP_LST, HELP_OUT,$/;"	e	enum:__anon2	file:
+HELP_SMP	ps/help.c	/^  HELP_SMP, HELP_LST, HELP_OUT,$/;"	e	enum:__anon2	file:
+HELP_THD	ps/help.c	/^  HELP_THD, HELP_MSC, HELP_ALL,$/;"	e	enum:__anon2	file:
 HELP_cmdline_fmt	top/top_nls.h	/^   GET_pid2nice_fmt, GET_sigs_num_fmt, GET_user_ids_txt, HELP_cmdline_fmt,$/;"	e	enum:norm_nls
-HELP_default	ps/help.c	/^  HELP_default$/;"	e	enum:__anon1	file:
+HELP_default	ps/help.c	/^  HELP_default$/;"	e	enum:__anon2	file:
 HH	top/top.c	1631;"	d	file:
 HH	top/top.c	1674;"	d	file:
 HHASH_SIZ	top/top.c	192;"	d	file:
@@ -766,8 +766,8 @@ LDFLAGS	man-po/Makefile	/^LDFLAGS = $/;"	m
 LDFLAGS	testsuite/Makefile	/^LDFLAGS = $/;"	m
 LEAVE	proc/readproc.c	48;"	d	file:
 LEAVE	proc/readproc.c	51;"	d	file:
-LEFT	ps/output.c	1404;"	d	file:
-LEFT	ps/output.c	1699;"	d	file:
+LEFT	ps/output.c	1446;"	d	file:
+LEFT	ps/output.c	1746;"	d	file:
 LEN	lib/strverscmp.c	83;"	d	file:
 LIBICONV	Makefile	/^LIBICONV = -liconv$/;"	m
 LIBICONV	include/Makefile	/^LIBICONV = -liconv$/;"	m
@@ -810,7 +810,7 @@ LN_S	Makefile	/^LN_S = ln -s$/;"	m
 LN_S	include/Makefile	/^LN_S = ln -s$/;"	m
 LN_S	man-po/Makefile	/^LN_S = ln -s$/;"	m
 LN_S	testsuite/Makefile	/^LN_S = ln -s$/;"	m
-LNx	ps/output.c	1434;"	d	file:
+LNx	ps/output.c	1476;"	d	file:
 LOADAVG_FILE	proc/sysinfo.c	60;"	d	file:
 LOADAV_line	top/top.h	638;"	d
 LOADAV_line_alt	top/top.h	639;"	d
@@ -838,7 +838,7 @@ LT_SYS_LIBRARY_PATH	Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
 LT_SYS_LIBRARY_PATH	include/Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
 LT_SYS_LIBRARY_PATH	man-po/Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
 LT_SYS_LIBRARY_PATH	testsuite/Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
-LXC	ps/output.c	1423;"	d	file:
+LXC	ps/output.c	1465;"	d	file:
 L_CGROUP	top/top.c	1686;"	d	file:
 L_CMDLINE	top/top.c	1687;"	d	file:
 L_DEFAULT	top/top.c	1701;"	d	file:
@@ -857,10 +857,10 @@ L_statm	top/top.c	1684;"	d	file:
 L_status	top/top.c	1685;"	d	file:
 Loops	top/top.c	/^           Loops = -1,          \/\/ number of iterations, -1 loops forever$/;"	v	file:
 MAJOR_OF	proc/devname.c	48;"	d	file:
-MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/ubuntu\/procps\/missing makeinfo$/;"	m
-MAKEINFO	include/Makefile	/^MAKEINFO = ${SHELL} \/home\/ubuntu\/procps\/missing makeinfo$/;"	m
-MAKEINFO	man-po/Makefile	/^MAKEINFO = ${SHELL} \/home\/ubuntu\/procps\/missing makeinfo$/;"	m
-MAKEINFO	testsuite/Makefile	/^MAKEINFO = ${SHELL} \/home\/ubuntu\/procps\/missing makeinfo$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/test\/procps\/missing makeinfo$/;"	m
+MAKEINFO	include/Makefile	/^MAKEINFO = ${SHELL} \/home\/test\/procps\/missing makeinfo$/;"	m
+MAKEINFO	man-po/Makefile	/^MAKEINFO = ${SHELL} \/home\/test\/procps\/missing makeinfo$/;"	m
+MAKEINFO	testsuite/Makefile	/^MAKEINFO = ${SHELL} \/home\/test\/procps\/missing makeinfo$/;"	m
 MALLOC	proc/procps.h	50;"	d
 MALLOC	proc/procps.h	58;"	d
 MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
@@ -884,7 +884,7 @@ MAX_CMD_WIDTH	w.c	72;"	d	file:
 MAX_CNF_LINE_LEN	pmap.c	770;"	d	file:
 MAX_ENC_BYTES	watch.c	331;"	d	file:
 MEDBUFSIZ	top/top.h	136;"	d
-MEM	ps/output.c	1416;"	d	file:
+MEM	ps/output.c	1458;"	d	file:
 MEMINFO_FILE	proc/sysinfo.c	62;"	d	file:
 MEMORY_lines_fmt	top/top_nls.h	/^   MEMORY_lines_fmt, STATE_lin2x4_fmt, STATE_lin2x5_fmt, STATE_lin2x6_fmt,$/;"	e	enum:uniq_nls
 MEM_FIELDS	top/top.h	611;"	d
@@ -905,18 +905,18 @@ MK_THREAD	proc/readproc.c	1605;"	d	file:
 MK_THREAD	proc/readproc.c	56;"	d	file:
 MNTNS	proc/readproc.h	/^    MNTNS,$/;"	e	enum:ns_type
 MONPIDMAX	top/top.h	120;"	d
-MON_1	include/nls.h	/^	MON_1,$/;"	e	enum:__anon3
-MON_10	include/nls.h	/^	MON_10,$/;"	e	enum:__anon3
-MON_11	include/nls.h	/^	MON_11,$/;"	e	enum:__anon3
-MON_12	include/nls.h	/^	MON_12,$/;"	e	enum:__anon3
-MON_2	include/nls.h	/^	MON_2,$/;"	e	enum:__anon3
-MON_3	include/nls.h	/^	MON_3,$/;"	e	enum:__anon3
-MON_4	include/nls.h	/^	MON_4,$/;"	e	enum:__anon3
-MON_5	include/nls.h	/^	MON_5,$/;"	e	enum:__anon3
-MON_6	include/nls.h	/^	MON_6,$/;"	e	enum:__anon3
-MON_7	include/nls.h	/^	MON_7,$/;"	e	enum:__anon3
-MON_8	include/nls.h	/^	MON_8,$/;"	e	enum:__anon3
-MON_9	include/nls.h	/^	MON_9,$/;"	e	enum:__anon3
+MON_1	include/nls.h	/^	MON_1,$/;"	e	enum:__anon4
+MON_10	include/nls.h	/^	MON_10,$/;"	e	enum:__anon4
+MON_11	include/nls.h	/^	MON_11,$/;"	e	enum:__anon4
+MON_12	include/nls.h	/^	MON_12,$/;"	e	enum:__anon4
+MON_2	include/nls.h	/^	MON_2,$/;"	e	enum:__anon4
+MON_3	include/nls.h	/^	MON_3,$/;"	e	enum:__anon4
+MON_4	include/nls.h	/^	MON_4,$/;"	e	enum:__anon4
+MON_5	include/nls.h	/^	MON_5,$/;"	e	enum:__anon4
+MON_6	include/nls.h	/^	MON_6,$/;"	e	enum:__anon4
+MON_7	include/nls.h	/^	MON_7,$/;"	e	enum:__anon4
+MON_8	include/nls.h	/^	MON_8,$/;"	e	enum:__anon4
+MON_9	include/nls.h	/^	MON_9,$/;"	e	enum:__anon4
 MSGCONV	po/Makefile	/^MSGCONV = msgconv$/;"	m
 MSGFILTER	po/Makefile	/^MSGFILTER = msgfilter$/;"	m
 MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
@@ -967,7 +967,7 @@ NMEDIT	Makefile	/^NMEDIT = $/;"	m
 NMEDIT	include/Makefile	/^NMEDIT = $/;"	m
 NMEDIT	man-po/Makefile	/^NMEDIT = $/;"	m
 NMEDIT	testsuite/Makefile	/^NMEDIT = $/;"	m
-NOEXPR	include/nls.h	/^	NOEXPR$/;"	e	enum:__anon3
+NOEXPR	include/nls.h	/^	NOEXPR$/;"	e	enum:__anon4
 NOHIFND_xxx	top/top.h	332;"	d
 NOHISEL_xxx	top/top.h	331;"	d
 NORETURN	proc/procps.h	45;"	d
@@ -986,7 +986,7 @@ NO_TTY_VALUE	contrib/minimal.c	49;"	d	file:
 NO_TTY_VALUE	contrib/minimal.c	60;"	d	file:
 NO_TTY_VALUE	contrib/minimal.c	68;"	d	file:
 NROFF	Makefile	/^NROFF = nroff$/;"	m
-NS	ps/output.c	1422;"	d	file:
+NS	ps/output.c	1464;"	d	file:
 NUL	proc/readproc.c	129;"	d	file:
 NUL	proc/readproc.c	233;"	d	file:
 NUMA_nodebad_txt	top/top_nls.h	/^   NOT_onsecure_txt, NOT_smp_cpus_txt, NUMA_nodebad_txt, NUMA_nodeget_fmt,$/;"	e	enum:norm_nls
@@ -1102,8 +1102,8 @@ PHash_new	top/top.c	/^             *PHash_new = HHash_two;$/;"	v	file:
 PHash_sav	top/top.c	/^static int   *PHash_sav = HHash_one,   \/\/ alternating 'old\/new' hash tables$/;"	v	file:
 PHist_new	top/top.c	/^             *PHist_new;$/;"	v	file:
 PHist_sav	top/top.c	/^static HST_t *PHist_sav,               \/\/ alternating 'old\/new' HST_t anchors$/;"	v	file:
-PIDMAX	ps/output.c	1409;"	d	file:
-PIDMAX	ps/output.c	1704;"	d	file:
+PIDMAX	ps/output.c	1451;"	d	file:
+PIDMAX	ps/output.c	1751;"	d	file:
 PIDNS	proc/readproc.h	/^    PIDNS,$/;"	e	enum:ns_type
 PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
 PKG_CONFIG	include/Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
@@ -1117,9 +1117,9 @@ PKG_CONFIG_PATH	Makefile	/^PKG_CONFIG_PATH = $/;"	m
 PKG_CONFIG_PATH	include/Makefile	/^PKG_CONFIG_PATH = $/;"	m
 PKG_CONFIG_PATH	man-po/Makefile	/^PKG_CONFIG_PATH = $/;"	m
 PKG_CONFIG_PATH	testsuite/Makefile	/^PKG_CONFIG_PATH = $/;"	m
-PM_STR	include/nls.h	/^	PM_STR,$/;"	e	enum:__anon3
-PO	ps/output.c	1411;"	d	file:
-PO	ps/output.c	1705;"	d	file:
+PM_STR	include/nls.h	/^	PM_STR,$/;"	e	enum:__anon4
+PO	ps/output.c	1453;"	d	file:
+PO	ps/output.c	1752;"	d	file:
 PO4A_TRANSLATE	man-po/Makefile	/^PO4A_TRANSLATE = po4a-translate$/;"	m
 PO4A_UPDATEPO	man-po/Makefile	/^PO4A_UPDATEPO = po4a-updatepo$/;"	m
 POFILES	po/Makefile	/^POFILES =  de.po fr.po pl.po uk.po vi.po zh_CN.po$/;"	m
@@ -1205,15 +1205,15 @@ PROC_WHATTIME_H	proc/whattime.h	2;"	d
 PROC_XTRA	top/top.h	175;"	d
 PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS) $(noinst_PROGRAMS) $(sbin_PROGRAMS) \\$/;"	m
 PROGRAMS	testsuite/Makefile	/^PROGRAMS = $(noinst_PROGRAMS)$/;"	m
-PROG_KILL	skill.c	/^	PROG_KILL,$/;"	e	enum:__anon4	file:
-PROG_SKILL	skill.c	/^	PROG_SKILL,$/;"	e	enum:__anon4	file:
-PROG_SNICE	skill.c	/^	PROG_SNICE$/;"	e	enum:__anon4	file:
-PROG_UNKNOWN	skill.c	/^	PROG_UNKNOWN,$/;"	e	enum:__anon4	file:
+PROG_KILL	skill.c	/^	PROG_KILL,$/;"	e	enum:__anon1	file:
+PROG_SKILL	skill.c	/^	PROG_SKILL,$/;"	e	enum:__anon1	file:
+PROG_SNICE	skill.c	/^	PROG_SNICE$/;"	e	enum:__anon1	file:
+PROG_UNKNOWN	skill.c	/^	PROG_UNKNOWN,$/;"	e	enum:__anon1	file:
 PSU_CLREOS	top/top.h	485;"	d
 PUFF	top/top.h	545;"	d
 PURE	proc/procps.h	52;"	d
 PURE	proc/procps.h	59;"	d
-PUSH	ps/sortformat.c	652;"	d	file:
+PUSH	ps/sortformat.c	655;"	d	file:
 PUTT	top/top.h	534;"	d
 P_	include/nls.h	31;"	d
 P_	include/nls.h	39;"	d
@@ -1268,7 +1268,7 @@ Pseudo_size	top/top.c	/^static size_t Pseudo_size;$/;"	v	file:
 QFP_t	top/top.h	/^typedef int (*QFP_t)(const void *, const void *);$/;"	t
 Qsrt_NORMAL	top/top.h	324;"	d
 Quiet	sysctl.c	/^static bool Quiet;$/;"	v	file:
-RADIXCHAR	include/nls.h	/^	RADIXCHAR,$/;"	e	enum:__anon3
+RADIXCHAR	include/nls.h	/^	RADIXCHAR,$/;"	e	enum:__anon4
 RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
 RANLIB	include/Makefile	/^RANLIB = ranlib$/;"	m
 RANLIB	man-po/Makefile	/^RANLIB = ranlib$/;"	m
@@ -1289,8 +1289,8 @@ READMINSZ	top/top.h	145;"	d
 RECHECK_LOGS	Makefile	/^RECHECK_LOGS = $(TEST_LOGS)$/;"	m
 RECURSIVE_CLEAN_TARGETS	Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
 RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \\$/;"	m
-RIGHT	ps/output.c	1405;"	d	file:
-RIGHT	ps/output.c	1700;"	d	file:
+RIGHT	ps/output.c	1447;"	d	file:
+RIGHT	ps/output.c	1747;"	d	file:
 ROWMAXSIZ	top/top.h	143;"	d
 ROWMINSIZ	top/top.h	142;"	d
 RUNTEST	testsuite/Makefile	/^RUNTEST = runtest$/;"	m
@@ -1313,7 +1313,7 @@ SCO	ps/common.h	51;"	d
 SCREENMAX	top/top.h	128;"	d
 SCROLLAMT	top/top.h	468;"	d
 SCROLL_coord_fmt	top/top_nls.h	/^   RC_bad_files_fmt, SCROLL_coord_fmt, SELECT_clash_txt, THREADS_show_fmt,$/;"	e	enum:norm_nls
-SD	ps/output.c	1424;"	d	file:
+SD	ps/output.c	1466;"	d	file:
 SECTION_ID_FIELDS_DISPLAY	pmap.c	777;"	d	file:
 SECTION_ID_MAPPING	pmap.c	781;"	d	file:
 SECTION_ID_NONE	pmap.c	772;"	d	file:
@@ -1358,7 +1358,7 @@ SF_G_sort	ps/common.h	166;"	d
 SF_U_O	ps/common.h	161;"	d
 SF_U_o	ps/common.h	162;"	d
 SGI	ps/common.h	56;"	d
-SGRP	ps/output.c	1425;"	d	file:
+SGRP	ps/output.c	1467;"	d	file:
 SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
 SHELL	include/Makefile	/^SHELL = \/bin\/bash$/;"	m
 SHELL	man-po/Makefile	/^SHELL = \/bin\/bash$/;"	m
@@ -1366,8 +1366,8 @@ SHELL	po/Makefile	/^SHELL = \/bin\/sh$/;"	m
 SHELL	testsuite/Makefile	/^SHELL = \/bin\/bash$/;"	m
 SIC_t	top/top.h	/^typedef          long long SIC_t;$/;"	t
 SIGCHLD	ps/display.c	44;"	d	file:
-SIGNAL	ps/output.c	1408;"	d	file:
-SIGNAL	ps/output.c	1703;"	d	file:
+SIGNAL	ps/output.c	1450;"	d	file:
+SIGNAL	ps/output.c	1750;"	d	file:
 SIGNAL_STRING	proc/readproc.h	16;"	d
 SIGPWR	proc/sig.c	61;"	d	file:
 SIGRTMAX	top/top.c	3288;"	d	file:
@@ -1395,7 +1395,7 @@ SOURCES	Makefile	/^SOURCES = $(proc_libprocps_la_SOURCES) $(free_SOURCES) $(kill
 SOURCES	include/Makefile	/^SOURCES =$/;"	m
 SOURCES	man-po/Makefile	/^SOURCES =$/;"	m
 SOURCES	testsuite/Makefile	/^SOURCES = $(test_schedbatch_SOURCES)$/;"	m
-SPACE_AMOUNT	ps/output.c	1945;"	d	file:
+SPACE_AMOUNT	ps/output.c	1992;"	d	file:
 SS_B_a	ps/common.h	134;"	d
 SS_B_g	ps/common.h	131;"	d
 SS_B_x	ps/common.h	130;"	d
@@ -1477,14 +1477,14 @@ TF_no_sort	ps/common.h	109;"	d
 TF_show_both	ps/common.h	107;"	d
 TF_show_proc	ps/common.h	105;"	d
 TF_show_task	ps/common.h	106;"	d
-THOUSEP	include/nls.h	/^	THOUSEP,$/;"	e	enum:__anon3
+THOUSEP	include/nls.h	/^	THOUSEP,$/;"	e	enum:__anon4
 THREADS_show_fmt	top/top_nls.h	/^   RC_bad_files_fmt, SCROLL_coord_fmt, SELECT_clash_txt, THREADS_show_fmt,$/;"	e	enum:norm_nls
 TICS_EDGE	top/top.h	181;"	d
 TIC_t	top/top.h	/^typedef unsigned long long TIC_t;$/;"	t
 TIME_accumed_fmt	top/top_nls.h	/^   TIME_accumed_fmt, UNKNOWN_cmds_txt, UNKNOWN_opts_fmt, USAGE_abbrev_txt,$/;"	e	enum:norm_nls
 TME	top/top.c	/^static int SCB_NAME(TME) (const proc_t **P, const proc_t **Q) {$/;"	f	file:
-TO	ps/output.c	1410;"	d	file:
-TO	ps/output.c	1706;"	d	file:
+TO	ps/output.c	1452;"	d	file:
+TO	ps/output.c	1753;"	d	file:
 TOGw	top/top.h	442;"	d
 TRIMz	top/top.c	5059;"	d	file:
 TRIMz	top/top.c	5113;"	d	file:
@@ -1493,8 +1493,8 @@ TRUE	include/c.h	64;"	d
 TST	ps/common.h	58;"	d
 TTY	top/top.c	35;"	d	file:
 TTY_NAME_SIZE	proc/devname.c	35;"	d	file:
-T_FMT	include/nls.h	/^	T_FMT,$/;"	e	enum:__anon3
-T_FMT_AMPM	include/nls.h	/^	T_FMT_AMPM,$/;"	e	enum:__anon3
+T_FMT	include/nls.h	/^	T_FMT,$/;"	e	enum:__anon4
+T_FMT_AMPM	include/nls.h	/^	T_FMT_AMPM,$/;"	e	enum:__anon4
 Thread_mode	top/top.c	/^           Thread_mode = 0,     \/\/ set w\/ 'H' - show threads via readeither()$/;"	v	file:
 Tree_idx	top/top.c	/^static int      Tree_idx;                   \/\/ frame_make resets to zero$/;"	v	file:
 Tree_ppt	top/top.c	/^static proc_t **Tree_ppt;                   \/\/ forest_create will resize$/;"	v	file:
@@ -1510,8 +1510,8 @@ UNIT_k	vmstat.c	55;"	d	file:
 UNIT_m	vmstat.c	57;"	d	file:
 UNKNOWN_cmds_txt	top/top_nls.h	/^   TIME_accumed_fmt, UNKNOWN_cmds_txt, UNKNOWN_opts_fmt, USAGE_abbrev_txt,$/;"	e	enum:norm_nls
 UNKNOWN_opts_fmt	top/top_nls.h	/^   TIME_accumed_fmt, UNKNOWN_cmds_txt, UNKNOWN_opts_fmt, USAGE_abbrev_txt,$/;"	e	enum:norm_nls
-UNLIMITED	ps/output.c	1406;"	d	file:
-UNLIMITED	ps/output.c	1701;"	d	file:
+UNLIMITED	ps/output.c	1448;"	d	file:
+UNLIMITED	ps/output.c	1748;"	d	file:
 UPDATEPOFILES	po/Makefile	/^UPDATEPOFILES =  de.po-update fr.po-update pl.po-update uk.po-update vi.po-update zh_CN.po-update$/;"	m
 UPTIME_FILE	proc/sysinfo.c	58;"	d	file:
 USAGE_HEADER	include/c.h	153;"	d
@@ -1522,14 +1522,14 @@ USAGE_SEPARATOR	include/c.h	155;"	d
 USAGE_VERSION	include/c.h	157;"	d
 USAGE_abbrev_txt	top/top_nls.h	/^   TIME_accumed_fmt, UNKNOWN_cmds_txt, UNKNOWN_opts_fmt, USAGE_abbrev_txt,$/;"	e	enum:norm_nls
 USECS_PER_SEC	watch.c	321;"	d	file:
-USER	ps/output.c	1403;"	d	file:
-USER	ps/output.c	1698;"	d	file:
+USER	ps/output.c	1445;"	d	file:
+USER	ps/output.c	1745;"	d	file:
 USERNS	proc/readproc.h	/^    USERNS,$/;"	e	enum:ns_type
 USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
 USE_NLS	include/Makefile	/^USE_NLS = yes$/;"	m
 USE_NLS	man-po/Makefile	/^USE_NLS = yes$/;"	m
 USE_NLS	testsuite/Makefile	/^USE_NLS = yes$/;"	m
-USR	ps/output.c	1420;"	d	file:
+USR	ps/output.c	1462;"	d	file:
 USR_FIELDS	top/top.h	612;"	d
 UTSNS	proc/readproc.h	/^    UTSNS,$/;"	e	enum:ns_type
 Uniq_nlstab	top/top_nls.c	/^const char *Uniq_nlstab[uniq_MAX];$/;"	v
@@ -1576,8 +1576,8 @@ WATCH_NCURSES_LIBS	Makefile	/^WATCH_NCURSES_LIBS = -lncurses -ltinfo$/;"	m
 WATCH_NCURSES_LIBS	include/Makefile	/^WATCH_NCURSES_LIBS = -lncurses -ltinfo$/;"	m
 WATCH_NCURSES_LIBS	man-po/Makefile	/^WATCH_NCURSES_LIBS = -lncurses -ltinfo$/;"	m
 WATCH_NCURSES_LIBS	testsuite/Makefile	/^WATCH_NCURSES_LIBS = -lncurses -ltinfo$/;"	m
-WCHAN	ps/output.c	1407;"	d	file:
-WCHAN	ps/output.c	1702;"	d	file:
+WCHAN	ps/output.c	1449;"	d	file:
+WCHAN	ps/output.c	1749;"	d	file:
 WINDOWS_help_fmt	top/top_nls.h	/^   STATE_lin2x7_fmt, STATE_line_1_fmt, WINDOWS_help_fmt, YINSP_hdsels_fmt,$/;"	e	enum:uniq_nls
 WINNAMSIZ	top/top.h	300;"	d
 WIN_t	top/top.h	/^typedef struct WIN_t {$/;"	s
@@ -1624,7 +1624,7 @@ XXXID	proc/readproc.h	32;"	d
 X_option	pmap.c	/^static int X_option;$/;"	v	file:
 XinL	proc/readproc.c	897;"	d	file:
 XinLN	proc/readproc.c	904;"	d	file:
-YESEXPR	include/nls.h	/^	YESEXPR,$/;"	e	enum:__anon3
+YESEXPR	include/nls.h	/^	YESEXPR,$/;"	e	enum:__anon4
 YINSP_demo01_txt	top/top_nls.h	/^   YINSP_demo01_txt, YINSP_demo02_txt, YINSP_demo03_txt, YINSP_deqfmt_txt,$/;"	e	enum:norm_nls
 YINSP_demo02_txt	top/top_nls.h	/^   YINSP_demo01_txt, YINSP_demo02_txt, YINSP_demo03_txt, YINSP_deqfmt_txt,$/;"	e	enum:norm_nls
 YINSP_demo03_txt	top/top_nls.h	/^   YINSP_demo01_txt, YINSP_demo02_txt, YINSP_demo03_txt, YINSP_deqfmt_txt,$/;"	e	enum:norm_nls
@@ -1668,27 +1668,27 @@ __ul_alloc_size	include/c.h	42;"	d
 __ul_alloc_size	include/c.h	44;"	d
 __ul_calloc_size	include/c.h	50;"	d
 __ul_calloc_size	include/c.h	52;"	d
-_pr_ns	ps/output.c	1243;"	d	file:
+_pr_ns	ps/output.c	1285;"	d	file:
 _sigpnd	proc/readproc.h	/^	_sigpnd;	\/\/ status          mask of PER TASK pending signals$/;"	m	struct:proc_t
 _sigpnd	proc/readproc.h	/^	_sigpnd[18];	\/\/ status          mask of PER TASK pending signals$/;"	m	struct:proc_t
 a_option	vmstat.c	/^static int a_option;$/;"	v	file:
-abrv	ps/help.c	/^  const char *abrv;$/;"	m	struct:__anon2	file:
-abs_builddir	Makefile	/^abs_builddir = \/home\/ubuntu\/procps$/;"	m
-abs_builddir	include/Makefile	/^abs_builddir = \/home\/ubuntu\/procps\/include$/;"	m
-abs_builddir	man-po/Makefile	/^abs_builddir = \/home\/ubuntu\/procps\/man-po$/;"	m
-abs_builddir	testsuite/Makefile	/^abs_builddir = \/home\/ubuntu\/procps\/testsuite$/;"	m
-abs_srcdir	Makefile	/^abs_srcdir = \/home\/ubuntu\/procps$/;"	m
-abs_srcdir	include/Makefile	/^abs_srcdir = \/home\/ubuntu\/procps\/include$/;"	m
-abs_srcdir	man-po/Makefile	/^abs_srcdir = \/home\/ubuntu\/procps\/man-po$/;"	m
-abs_srcdir	testsuite/Makefile	/^abs_srcdir = \/home\/ubuntu\/procps\/testsuite$/;"	m
-abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/ubuntu\/procps$/;"	m
-abs_top_builddir	include/Makefile	/^abs_top_builddir = \/home\/ubuntu\/procps$/;"	m
-abs_top_builddir	man-po/Makefile	/^abs_top_builddir = \/home\/ubuntu\/procps$/;"	m
-abs_top_builddir	testsuite/Makefile	/^abs_top_builddir = \/home\/ubuntu\/procps$/;"	m
-abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/ubuntu\/procps$/;"	m
-abs_top_srcdir	include/Makefile	/^abs_top_srcdir = \/home\/ubuntu\/procps$/;"	m
-abs_top_srcdir	man-po/Makefile	/^abs_top_srcdir = \/home\/ubuntu\/procps$/;"	m
-abs_top_srcdir	testsuite/Makefile	/^abs_top_srcdir = \/home\/ubuntu\/procps$/;"	m
+abrv	ps/help.c	/^  const char *abrv;$/;"	m	struct:__anon3	file:
+abs_builddir	Makefile	/^abs_builddir = \/home\/test\/procps$/;"	m
+abs_builddir	include/Makefile	/^abs_builddir = \/home\/test\/procps\/include$/;"	m
+abs_builddir	man-po/Makefile	/^abs_builddir = \/home\/test\/procps\/man-po$/;"	m
+abs_builddir	testsuite/Makefile	/^abs_builddir = \/home\/test\/procps\/testsuite$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/test\/procps$/;"	m
+abs_srcdir	include/Makefile	/^abs_srcdir = \/home\/test\/procps\/include$/;"	m
+abs_srcdir	man-po/Makefile	/^abs_srcdir = \/home\/test\/procps\/man-po$/;"	m
+abs_srcdir	testsuite/Makefile	/^abs_srcdir = \/home\/test\/procps\/testsuite$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/test\/procps$/;"	m
+abs_top_builddir	include/Makefile	/^abs_top_builddir = \/home\/test\/procps$/;"	m
+abs_top_builddir	man-po/Makefile	/^abs_top_builddir = \/home\/test\/procps$/;"	m
+abs_top_builddir	testsuite/Makefile	/^abs_top_builddir = \/home\/test\/procps$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/test\/procps$/;"	m
+abs_top_srcdir	include/Makefile	/^abs_top_srcdir = \/home\/test\/procps$/;"	m
+abs_top_srcdir	man-po/Makefile	/^abs_top_srcdir = \/home\/test\/procps$/;"	m
+abs_top_srcdir	testsuite/Makefile	/^abs_top_srcdir = \/home\/test\/procps$/;"	m
 ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
 ac_ct_AR	include/Makefile	/^ac_ct_AR = ar$/;"	m
 ac_ct_AR	man-po/Makefile	/^ac_ct_AR = ar$/;"	m
@@ -2671,7 +2671,7 @@ height	vmstat.c	/^static unsigned int height;$/;"	v	file:
 height	watch.c	/^static long height = 24, width = 80;$/;"	v	file:
 help_pr_sig	ps/output.c	/^static int help_pr_sig(char *restrict const outbuf, const char *restrict const sig){$/;"	f	file:
 help_pr_sig	ps/output.c	/^static int help_pr_sig(unsigned long long sig){$/;"	f	file:
-help_tab	ps/help.c	/^} help_tab[HELP_default];$/;"	v	typeref:struct:__anon2	file:
+help_tab	ps/help.c	/^} help_tab[HELP_default];$/;"	v	typeref:struct:__anon3	file:
 help_view	top/top.c	/^static void help_view (void) {$/;"	f	file:
 hex_dump	ps/display.c	/^void hex_dump(void *vp){$/;"	f
 hex_make	top/top.c	/^static inline const char *hex_make (KLONG num, int noz) {$/;"	f	file:
@@ -2749,10 +2749,10 @@ insp_make_row	top/top.c	/^static inline void insp_make_row (int col, int row) {$
 insp_show_pgs	top/top.c	/^static inline void insp_show_pgs (int col, int row, int max) {$/;"	f	file:
 insp_view_choice	top/top.c	/^static int insp_view_choice (proc_t *obj) {$/;"	f	file:
 inspection_utility	top/top.c	/^static void inspection_utility (int pid) {$/;"	f	file:
-install_sh	Makefile	/^install_sh = ${SHELL} \/home\/ubuntu\/procps\/install-sh$/;"	m
-install_sh	include/Makefile	/^install_sh = ${SHELL} \/home\/ubuntu\/procps\/install-sh$/;"	m
-install_sh	man-po/Makefile	/^install_sh = ${SHELL} \/home\/ubuntu\/procps\/install-sh$/;"	m
-install_sh	testsuite/Makefile	/^install_sh = ${SHELL} \/home\/ubuntu\/procps\/install-sh$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/test\/procps\/install-sh$/;"	m
+install_sh	include/Makefile	/^install_sh = ${SHELL} \/home\/test\/procps\/install-sh$/;"	m
+install_sh	man-po/Makefile	/^install_sh = ${SHELL} \/home\/test\/procps\/install-sh$/;"	m
+install_sh	testsuite/Makefile	/^install_sh = ${SHELL} \/home\/test\/procps\/install-sh$/;"	m
 install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
 install_sh_DATA	include/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
 install_sh_DATA	man-po/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
@@ -3389,6 +3389,7 @@ pr_lstart	ps/output.c	/^static int pr_lstart(char *restrict const outbuf, const 
 pr_lxcname	ps/output.c	/^static int pr_lxcname(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_majflt	ps/output.c	/^static int pr_majflt(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_minflt	ps/output.c	/^static int pr_minflt(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
+pr_myprio	ps/output.c	/^static int pr_myprio(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_nice	ps/output.c	/^static int pr_nice(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_nlwp	ps/output.c	/^static int pr_nlwp(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_nop	ps/output.c	/^int pr_nop(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f
@@ -3407,11 +3408,13 @@ pr_pri_foo	ps/output.c	/^static int pr_pri_foo(char *restrict const outbuf, cons
 pr_priority	ps/output.c	/^static int pr_priority(char *restrict const outbuf, const proc_t *restrict const pp){    \/* -20..20 *\/$/;"	f	file:
 pr_procs	ps/output.c	/^static int pr_procs(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_psr	ps/output.c	/^static int pr_psr(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
+pr_realcpu	ps/output.c	/^static int pr_realcpu(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_rgid	ps/output.c	/^static int pr_rgid(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_rgroup	ps/output.c	/^static int pr_rgroup(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_rss	ps/output.c	/^static int pr_rss(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_rtprio	ps/output.c	/^static int pr_rtprio(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_ruid	ps/output.c	/^static int pr_ruid(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
+pr_running	ps/output.c	/^static int pr_running(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_ruser	ps/output.c	/^static int pr_ruser(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_s	ps/output.c	/^static int pr_s(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_sched	ps/output.c	/^static int pr_sched(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
@@ -3426,6 +3429,7 @@ pr_sess	ps/output.c	/^static int pr_sess(char *restrict const outbuf, const proc
 pr_sgi_p	ps/output.c	/^static int pr_sgi_p(char *restrict const outbuf, const proc_t *restrict const pp){          \/* FIXME *\/$/;"	f	file:
 pr_sgid	ps/output.c	/^static int pr_sgid(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_sgroup	ps/output.c	/^static int pr_sgroup(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
+pr_sibling	ps/output.c	/^static int pr_sibling(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_sig	ps/output.c	/^static int pr_sig(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_sigcatch	ps/output.c	/^static int pr_sigcatch(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_sigignore	ps/output.c	/^static int pr_sigignore(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
@@ -3440,6 +3444,7 @@ pr_supgid	ps/output.c	/^static int pr_supgid(char *restrict const outbuf, const 
 pr_supgrp	ps/output.c	/^static int pr_supgrp(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_suser	ps/output.c	/^static int pr_suser(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_swapable	ps/output.c	/^static int pr_swapable(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
+pr_switches	ps/output.c	/^static int pr_switches(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_sz	ps/output.c	/^static int pr_sz(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_t_left	ps/output.c	/^static int pr_t_left(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
 pr_t_left2	ps/output.c	/^static int pr_t_left2(char *restrict const outbuf, const proc_t *restrict const pp){$/;"	f	file:
@@ -4159,7 +4164,7 @@ wins_reflag	top/top.c	/^static void wins_reflag (int what, int flg) {$/;"	f	file
 wins_stage_1	top/top.c	/^static void wins_stage_1 (void) {$/;"	f	file:
 wins_stage_2	top/top.c	/^static void wins_stage_2 (void) {$/;"	f	file:
 without_a_tty	ps/select.c	35;"	d	file:
-word	ps/help.c	/^  const char *word;$/;"	m	struct:__anon2	file:
+word	ps/help.c	/^  const char *word;$/;"	m	struct:__anon3	file:
 write_rcfile	top/top.c	/^static void write_rcfile (void) {$/;"	f	file:
 writes	proc/sysinfo.h	/^	unsigned           writes;$/;"	m	struct:disk_stat
 writes	proc/sysinfo.h	/^	unsigned           writes;$/;"	m	struct:partition_stat

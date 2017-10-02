@@ -73,7 +73,7 @@
 #include "../proc/numa.h"
 
 #include "common.h"
-
+#include <sys/syscall.h>
 /* TODO:
  * Stop assuming system time is local time.
  */
@@ -516,6 +516,48 @@ static int pr_c(char *restrict const outbuf, const proc_t *restrict const pp){
   if (pcpu > 99U) pcpu = 99U;
   return snprintf(outbuf, COLWID, "%2u", pcpu);
 }
+
+/* [sinban] test code */
+static int pr_realcpu(char *restrict const outbuf, const proc_t *restrict const pp){
+
+  int ncpu = syscall(335, pp->tid); 
+  return snprintf(outbuf, COLWID, "%d", ncpu);
+}
+
+
+static int pr_myprio(char *restrict const outbuf, const proc_t *restrict const pp){
+
+  int prio = pp->priority + 100;
+  return snprintf(outbuf, COLWID, "%d", prio);
+}
+
+
+static int pr_switches(char *restrict const outbuf, const proc_t *restrict const pp){
+
+  long nr_switches;   /* # of context switches */
+  nr_switches = syscall(332, pp->tid); 
+  
+  return snprintf(outbuf, COLWID, "%d", nr_switches);
+}
+
+static int pr_running(char *restrict const outbuf, const proc_t *restrict const pp){
+
+  long nr_running;   /* # of context switches */
+  nr_running = syscall(334, pp->tid); 
+
+  return snprintf(outbuf, COLWID, "%d", nr_running);
+}
+static int pr_sibling(char *restrict const outbuf, const proc_t *restrict const pp){
+
+  long nr_sibling;   /* # of  */
+  nr_sibling = syscall(333, pp->tid); 
+
+  return snprintf(outbuf, COLWID, "%d", nr_sibling);
+}
+
+
+
+
 /* normal %CPU in ##.# format. */
 static int pr_pcpu(char *restrict const outbuf, const proc_t *restrict const pp){
   unsigned long long total_time;   /* jiffies used by this process */
@@ -1544,6 +1586,7 @@ static const format_struct format_array[] = {
 {"msgrcv",    "MSGRCV",  pr_nop,      sr_nop,     6,   0,    XXX, AN|RIGHT},
 {"msgsnd",    "MSGSND",  pr_nop,      sr_nop,     6,   0,    XXX, AN|RIGHT},
 {"mwchan",    "MWCHAN",  pr_nop,      sr_nop,     6,   0,    BSD, TO|WCHAN}, /* mutex (FreeBSD) */
+{"my_prio",   "PRI",     pr_myprio,   sr_nop,     8,   0,    XXX, TO|WCHAN}, /* mutex (FreeBSD) */
 {"netns",     "NETNS",   pr_netns,    sr_netns,  10,  NS,    LNX, ET|RIGHT},
 {"ni",        "NI",      pr_nice,     sr_nice,    3,   0,    BSD, TO|RIGHT}, /*nice*/
 {"nice",      "NI",      pr_nice,     sr_nice,    3,   0,    U98, TO|RIGHT}, /*ni*/
@@ -1587,6 +1630,7 @@ static const format_struct format_array[] = {
 {"psr",       "PSR",     pr_psr,      sr_nop,     3,   0,    DEC, TO|RIGHT},
 {"psxpri",    "PPR",     pr_nop,      sr_nop,     3,   0,    DEC, TO|RIGHT},
 {"re",        "RE",      pr_nop,      sr_nop,     3,   0,    BSD, AN|RIGHT},
+{"realcpu",   "CPU#",    pr_realcpu,  sr_nop,     4,   0,    BSD, AN|RIGHT},
 {"resident",  "RES",     pr_nop,      sr_resident, 5,MEM,    LNX, PO|RIGHT},
 {"rgid",      "RGID",    pr_rgid,     sr_rgid,    5,   0,    XXX, ET|RIGHT},
 {"rgroup",    "RGROUP",  pr_rgroup,   sr_rgroup,  8, GRP,    U98, ET|USER}, /* was 8 wide */
@@ -1596,6 +1640,7 @@ static const format_struct format_array[] = {
 {"rsz",       "RSZ",     pr_rss,      sr_vm_rss,  5,   0,    BSD, PO|RIGHT}, /*rssize*/
 {"rtprio",    "RTPRIO",  pr_rtprio,   sr_rtprio,  6,   0,    BSD, TO|RIGHT},
 {"ruid",      "RUID",    pr_ruid,     sr_ruid,    5,   0,    XXX, ET|RIGHT},
+{"run_p",     "RUNNING", pr_running,  sr_nop,     10,  0,    BSD, ET|RIGHT},
 {"ruser",     "RUSER",   pr_ruser,    sr_ruser,   8, USR,    U98, ET|USER},
 {"s",         "S",       pr_s,        sr_state,   1,   0,    SUN, TO|LEFT}, /*stat,state*/
 {"sched",     "SCH",     pr_sched,    sr_sched,   3,   0,    AIX, TO|RIGHT},
@@ -1609,6 +1654,7 @@ static const format_struct format_array[] = {
 {"sgid",      "SGID",    pr_sgid,     sr_sgid,    5,   0,    LNX, ET|RIGHT},
 {"sgroup",    "SGROUP",  pr_sgroup,   sr_sgroup,  8, GRP,    LNX, ET|USER},
 {"share",     "-",       pr_nop,      sr_share,   1, MEM,    LNX, PO|RIGHT},
+{"sibling",   "SIBLING", pr_sibling,  sr_nop,     10,   0,    XXX, ET|RIGHT},
 {"sid",       "SID",     pr_sess,     sr_session, 5,   0,    XXX, PO|PIDMAX|RIGHT}, /* Sun & HP */
 {"sig",       "PENDING", pr_sig,      sr_nop,     9,   0,    XXX, ET|SIGNAL}, /*pending -- Dragonfly uses this for whole-proc and "tsig" for thread */
 {"sig_block", "BLOCKED",  pr_sigmask, sr_nop,     9,   0,    LNX, TO|SIGNAL},
@@ -1639,6 +1685,7 @@ static const format_struct format_array[] = {
 {"svgroup",   "SVGROUP", pr_sgroup,   sr_sgroup,  8, GRP,    LNX, ET|USER},
 {"svuid",     "SVUID",   pr_suid,     sr_suid,    5,   0,    XXX, ET|RIGHT},
 {"svuser",    "SVUSER",  pr_suser,    sr_suser,   8, USR,    LNX, ET|USER},
+{"switches",  "SWITCHES",pr_switches, sr_nop,     10,   0,    BSD, ET|RIGHT}, //sinban's code
 {"systime",   "SYSTEM",  pr_nop,      sr_nop,     6,   0,    DEC, ET|RIGHT},
 {"sz",        "SZ",      pr_sz,       sr_nop,     5,   0,    HPU, PO|RIGHT},
 {"taskid",    "TASKID",  pr_nop,      sr_nop,     5,   0,    SUN, TO|PIDMAX|RIGHT}, // is this a thread ID?

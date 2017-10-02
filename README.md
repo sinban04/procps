@@ -1,3 +1,13 @@
+# sinban's procps
+## Briefing
+This repository is a kind of mirror of procps project.
+I made this repo to make assignment for the undergrade course. 
+I added some featrues to existing ps application 
+such as # of switches, process state (which are in procps) and 
+runqueue's nr_running, # of siblings (Not in procps, by system call)
+
+In addition, i tried Travis CI system for test and my curiosity. 
+
 [![build status](https://gitlab.com/ci/projects/2142/status.png?ref=master)](https://gitlab.com/ci/projects/2142?ref=master)
 procps
 ======

@@ -42,7 +42,8 @@ static format_node *do_one_spec(const char *spec, const char *override){
   const macro_struct *ms;
 
   fs = search_format_array(spec);
-  if(fs){
+
+  if(fs){ 
     int w1, w2;
     format_node *thisnode;
     thisnode = malloc(sizeof(format_node));
@@ -90,6 +91,7 @@ static format_node *do_one_spec(const char *spec, const char *override){
     }
     return list;
   }
+
   return NULL;   /* bad, spec not found */
 }
 
@@ -652,9 +654,22 @@ static int fmt_delete(const char *findme){
 #define PUSH(foo) (fn=do_one_spec(foo, NULL), fn->next=format_list, format_list=fn)
 static const char *generate_sysv_list(void){
   format_node *fn;
+
+  // [sinban] new test code
+  if(format_flags & FF_Uf){
+    PUSH("run_p");
+    PUSH("sibling");
+    PUSH("switches");
+    PUSH("s"); 
+    PUSH("realcpu");
+    PUSH("nice");
+    PUSH("my_prio");
+  }
+
+
   if((format_modifiers & FM_y) && !(format_flags & FF_Ul))
     return _("modifier -y without format -l makes no sense");
-  if(prefer_bsd_defaults){
+  if(prefer_bsd_defaults){ 
     if(format_flags) PUSH("cmd");
     else PUSH("args");
     PUSH("bsdtime");
@@ -676,6 +691,7 @@ static const char *generate_sysv_list(void){
   if(format_flags & FF_Ul){
     PUSH("wchan");
   }
+  
   /* since FM_y adds RSS anyway, don't do this hack when that is true */
   if( (format_flags & FF_Ul) && !(format_modifiers & FM_y) ){
     if(personality & PER_IRIX_l){ /* add "rss" then ':' here */
@@ -745,7 +761,6 @@ static const char *generate_sysv_list(void){
  * The "broken" flag enables a really bad Unix98 misfeature.
  */
 const char *process_sf_options(void){
-  printf("process sf options()\n");
   sf_node *sf_walk;
 
   if(sf_list){
@@ -755,6 +770,7 @@ const char *process_sf_options(void){
   }
 
   if(format_list) catastrophic_failure(__FILE__, __LINE__, _("bug: must reset the list first"));
+
 
   /* merge formatting info of sf_list into format_list here */
   sf_walk = sf_list;
@@ -823,7 +839,7 @@ const char *process_sf_options(void){
     }
   }
 
-  if(format_list){
+  if(format_list){ 
     if(format_flags) return _("conflicting format options");
     if(format_modifiers) return _("can not use output modifiers with user-defined output");
     if(thread_flags&TF_must_use) return _("-L/-T with H/m/-m and -o/-O/o/O is nonsense");
@@ -866,7 +882,7 @@ const char *process_sf_options(void){
     // not just for case 0, since sysv_l_format and such may be NULL
     if(!spec) return generate_sysv_list();
 
-    do{
+    do{ 
       format_node *fmt_walk;
       fmt_walk = do_one_spec(spec, NULL); /* use override "" for no headers */
       while(fmt_walk){   /* put any nodes onto format_list in opposite way */
