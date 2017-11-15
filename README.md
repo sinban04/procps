@@ -8,6 +8,12 @@ runqueue's nr_running, # of siblings (Not in procps, by system call)
 
 In addition, i tried Travis CI system for test and my curiosity. 
 
+
+## Note
+You need to modify the kernel with my kernel code.
+Check kernel-code/ directory for more details.
+FYI, i used kernel version 4.9.45
+
 ## Screenshot of Output
 ![output screenshot](./img/procps-output.PNG)
 
