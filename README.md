@@ -8,6 +8,9 @@ runqueue's nr_running, # of siblings (Not in procps, by system call)
 
 In addition, i tried Travis CI system for test and my curiosity. 
 
+## Screenshot of Output
+![output screenshot](./img/procps-output.PNG)
+
 [![build status](https://gitlab.com/ci/projects/2142/status.png?ref=master)](https://gitlab.com/ci/projects/2142?ref=master)
 procps
 ======
