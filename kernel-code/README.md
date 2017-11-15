@@ -65,7 +65,15 @@ make the part 'GRUB_HIDDEN_TIMEOUT=0' to be a comment.
 
 GRUB_HIDDEN_TIMEOUT=0 makes grub does not appear.
 
+![grub_setting](../img/grub-setting.PNG)
 
 
+and then reboot
+```
+$ sudo reboot
+```
 
+Go into 'advanced option' and
+Choose the new kernel which you had installed 
 
+![choosing_kernel](../img/choose-kernel.PNG)
