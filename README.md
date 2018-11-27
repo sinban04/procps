@@ -1,7 +1,7 @@
 # sinban's procps
 ## Briefing
 This repository is a kind of mirror of procps project. (https://gitlab.com/procps-ng/procps)
-I made this repo to make assignment for the undergrade course. 
+I made this repo to make assignment for the undergraduate. 
 I added some featrues to existing ps application 
 such as # of switches, process state (which are in procps) and 
 runqueue's nr_running, # of siblings (Not in procps, by system call)
